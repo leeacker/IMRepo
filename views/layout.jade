@@ -1,0 +1,37 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset="utf-8")
+		title Inventive Media, LLC
+		link(rel='stylesheet', type="text/css", href='styles/bootstrap.css')
+		link(rel='stylesheet', type='text/css', href='styles/main.css')
+
+	body
+		.container
+			nav.navbar(role="navigation")
+				.navbar-brand Inventive Media
+				ul.nav.nav-pills.navbar-right
+					li.active
+						a(href='/') Home
+					li
+						a(href='/About') About
+					li.dropdown
+						a.dropdown-toggle(href='#', data-toggle="dropdown") Products
+							span.caret
+						ul.dropdown-menu(role='menu')
+							li
+								a(href='/xpand') XPand
+							li
+								a(href='/ezipop') EZIpop
+							li
+								a(href='/tuffline') Tuffline 
+							li
+								a(href='/swingbox') SwingBox
+							li
+								a(href='/mediabeacon') Media Beacon
+		block content
+
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+		script(src='http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js')
+		script(src="scripts/main.js")
+		

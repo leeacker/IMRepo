@@ -1,0 +1,28 @@
+#jumbotron {
+	margin-bottom: 0px;
+    background-image: url('../images/cashRegisterClose.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   height: 100vh;
+   color: #222268;
+   top: 0;
+   bottom: 0;
+
+}
+.navbar {
+	margin-bottom: 0;
+}
+.header {
+	padding-left: 40px;
+	padding-top: 60px;
+}
+.tagline {
+	background: #222268;
+	color: white;
+}
+.jumbotron h1 {
+	color: white;
+}
+.imageDiv {
+	padding-top: 50px;
+}
