@@ -17,6 +17,6 @@ app.get('/mediaBeacon', indexController.mediaBeacon);
 app.get('/about', indexController.about);
 
 
-var server = app.listen(6589, function() {
+var server = app.listen(process.env.PORT || 6589, function() {
 	console.log('Express server listening on port ' + server.address().port);
 });
